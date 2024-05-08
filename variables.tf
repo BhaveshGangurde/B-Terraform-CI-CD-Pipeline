@@ -5,12 +5,12 @@ variable "ami" {
 
 variable "instance_type" {
   type    = string
-  default = "t2.xlarge"
+  default = "t2.micro"
 }
 
 variable "volume_type" {
   type    = string
-  default = "gp3"
+  default = "gp2"
 }
 
 variable "volume_size" {
