@@ -1,16 +1,16 @@
 variable "ami" {
   type    = string
-  default = "ami-080e1f13689e07408"
+  default = "ami-04b70fa74e45c3917"
 }
 
 variable "instance_type" {
   type    = string
-  default = "t2.micro"
+  default = "t2.xlarge"
 }
 
 variable "volume_type" {
   type    = string
-  default = "gp2"
+  default = "gp3"
 }
 
 variable "volume_size" {
@@ -22,7 +22,7 @@ variable "tags" {
   type = map(string)
   default = {
     name       = "test"
-    created_by = "Palak"
+    created_by = "Bunny"
   }
 }
 
