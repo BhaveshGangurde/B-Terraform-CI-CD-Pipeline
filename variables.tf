@@ -22,7 +22,7 @@ variable "tags" {
   type = map(string)
   default = {
     name       = "test"
-    created_by = "Bunny"
+    created_by = "Palak"
   }
 }
 
