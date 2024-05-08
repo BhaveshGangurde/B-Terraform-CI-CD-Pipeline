@@ -1,6 +1,7 @@
 resource "aws_instance" "test_instance" {
   ami           = var.ami
   instance_type = var.instance_type
+   subnet_id     = "subnet-08a0e83a7538f8b24"
 
   metadata_options {
     http_tokens   = "required"
